@@ -1,3 +1,3 @@
-pub mod bubble_sort;
+pub mod bubble_sort_recursive;
 
-pub use bubble_sort::*;
+pub use bubble_sort_recursive::*;

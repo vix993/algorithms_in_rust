@@ -1,6 +1,5 @@
 // Should be O ( log n ) -> Logarithmic Time / Sublinear
 
-
 pub fn binary_search<T: PartialOrd>(array: &[T], value: T) -> Option<usize> {
 	let mut low = 0;
 	let mut high = array.len() - 1;

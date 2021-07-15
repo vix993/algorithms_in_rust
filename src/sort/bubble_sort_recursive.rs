@@ -1,6 +1,6 @@
 // Quadratic Time
 
-pub fn bubble_sort(to_sort: &mut Vec<i32>, vec_size: usize) -> &Vec<i32> {
+pub fn bubble_sort_recursive(to_sort: &mut Vec<i32>, vec_size: usize) -> &Vec<i32> {
     if vec_size == 1 {
         return to_sort;
     }
@@ -13,5 +13,5 @@ pub fn bubble_sort(to_sort: &mut Vec<i32>, vec_size: usize) -> &Vec<i32> {
         }
     }
 
-    bubble_sort(to_sort, vec_size - 1)
+    bubble_sort_recursive(to_sort, vec_size - 1)
 }
