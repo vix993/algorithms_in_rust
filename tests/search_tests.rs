@@ -1,7 +1,7 @@
 use algorithms_in_rust::search::{linear_search, binary_search};
 
 #[cfg(test)]
-mod linear_search_tests {
+mod search_tests {
     use super::*;
 
     #[test]

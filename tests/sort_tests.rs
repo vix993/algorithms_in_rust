@@ -1,11 +1,11 @@
 use algorithms_in_rust::sort::bubble_sort;
 
 #[cfg(test)]
-mod linear_search_tests {
+mod sort_tests {
     use super::*;
 
     #[test]
-    fn test_linear_search() {
+    fn test_bubble_sort() {
         let mut test_small_sample_middle: Vec<i32> = vec![1, 3, 2, 4, 5];
 	let sample_middle_size: usize = test_small_sample_middle.len();
 	let small_sample_middle_expected: Vec<i32> = vec![1, 2, 3, 4, 5];
